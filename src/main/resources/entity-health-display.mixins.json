@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pinkgoosik.entityhealthdisplay.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ArmorStandMixin",
+    "DisplayEntityMixin",
+    "LivingEntityMixin",
+    "TextEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

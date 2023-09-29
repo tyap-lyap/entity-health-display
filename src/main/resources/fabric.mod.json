@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "entity-health-display",
+  "version": "${version}",
+  "name": "Entity Health Display",
+  "description": "Fabric server-side library for displaying entities' health.",
+  "authors": [
+    "PinkGoosik"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/entity-health-display",
+    "sources": "https://github.com/tyap-lyap/entity-health-display",
+    "issues": "https://github.com/tyap-lyap/entity-health-display/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/entity-health-display/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pinkgoosik.entityhealthdisplay.EntityHealthDisplay"
+    ]
+  },
+  "mixins": [
+    "entity-health-display.mixins.json"
+  ],
+  "accessWidener": "entity-health-display.accesswidener",
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": ">=1.20.2",
+    "java": ">=17"
+  }
+}
